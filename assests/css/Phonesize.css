@@ -1,0 +1,270 @@
+@media screen and (max-width:320px) {
+  .maincontainer {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 7px;
+  }.upheader{
+    display:flex;
+    align-items: center;
+    background-color: white;  
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 #f21f1f; 
+    width: 95%;
+    align-self: center;
+    align-content: center
+}#right{
+    align-items: center;
+}
+#left{
+    display: block;
+    margin-left: 20px;
+}#iconSocial{
+    width:2%;
+  }
+input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top:1px;
+    margin-right: 16px;
+    font-size: 1vmax;
+  }
+  .banner {
+    display: grid;
+    flex-wrap: nowrap;
+    background-image: url(/assests/image/alfurshisan.jpg);
+    box-shadow: 0 4px 8px 0 #f21f1f; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: center;
+    width: 95%;
+    border-radius: 10px;
+  }
+
+  .heder1 {
+    font-family: Hedres;
+    font-style: italic;
+    padding-left: 5%;
+    padding-top: 0%;
+    color: red;
+    font-size: 3vmax;
+    padding-left: 30px;
+  }
+  #Introd {
+    font-size: 1vmax;
+    text-shadow: white 0px 0 1px;
+    background-color: rgb(146, 43, 43) 0px 0 1px;
+    width: 50%;
+    padding-left: 10px;
+  }
+  mark {
+    background-color: rgb(234, 224, 224);
+    opacity: 0.5;
+  }
+  .MainMenu {
+    grid-row: 2/3;
+    display: flex;
+    background-color: antiquewhite;
+    border-width: 5px;
+    box-shadow: 0 4px 8px 0 #f21f1f;
+    border-radius: 20px;
+    height: 30px;
+    width: 70%;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    position: relative;
+    top: 14px;
+    left: 50px;
+  }
+  #listnav {
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 2px;
+  }
+  #listnav a {
+    font-family: Hedres;
+    font-style: italic;
+    font-size: 3vmax;
+    color: black;
+    text-decoration: none;
+    margin-left: 8px;
+  }
+  #linkPages:hover {
+    font-size: 2vwax;
+    color: #f21f1f;
+    text-decoration: none;
+  }
+  .centerM {
+    align-self: center;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    gap:5px;
+    box-shadow: 0 4px 8px 0 #f21f1f; 
+  }
+  #box1 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: 2vmax;
+    gap: 2px;
+    margin: 2px;
+  }
+  figure {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  #b1 {
+    margin-top: 5px;
+    width: 85%;
+    height: 200px;
+
+  }
+  #description {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: antiquewhite;
+    box-shadow: 0 4px 8px 0 #f21f1f;
+    width: 85%;
+    height:90px;
+    margin-bottom: 5px;
+  }
+  .DescTitle {
+    font-family: Hedres;
+    font-style: italic;
+    font-size: 3vmax;
+    color: red;
+    margin-inline-start: 20px;
+    margin-top: 3px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+  }
+  .DescP {
+    font-family: Comic Sans MS;
+    font-style: italic;
+    font-size: 1.2vmax;
+    padding: 3px;
+    color: rgb(41, 37, 37);
+  }
+  .cardfeedback {
+    display: flex;
+    align-self: center;
+    width: 95%;
+    box-shadow: 0 4px 8px 0 #f21f1f;
+  }
+  .FeedPack h1 {
+    font-family:Hedres;
+    font-style: italic;
+    font-size: 4vmax;
+    padding-left: 1px;
+    padding-top: 0%;
+    color: red;
+    margin: 10px;
+  }
+
+  .FeedPack p {
+    font-family: Comic Sans MS;
+    font-style: italic;
+    font-size: 3vmax;
+    margin: 5px;
+    padding-left: 1px;
+    padding-top: 0%;
+  }
+  .feedPicture {
+    margin-top: 2px;
+    margin-right: 2px;
+    width: 150px;
+    height: 150px;
+
+  }
+   .FeedP figcaption{
+    font-family: Comic Sans MS;
+    font-size: 2vmax;
+    color: red;
+    text-align: center;
+   padding: 0px;
+   
+  }
+  #footer {
+    display: flex;
+    flex-direction: column;
+    width:95%;
+    gap: 1px;
+    justify-self: center;
+    align-self: center;
+    background-color: antiquewhite;
+    box-shadow: 0 4px 8px 0 #f21f1f;
+    border-radius: 5px;
+    font-size: x-small;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .footerheder {
+    padding-left: 20px;
+    color: #f21f1f;
+  }
+  .MainFooter {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0%;
+    margin: 5px;
+
+  }
+  #quiqLink ul {
+    font-size: x-small;
+    list-style-type: none;
+    padding: 5px;
+  }
+  #importantphonenumber {
+    display: none;
+  }#ContactForm{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  }#ContactForm input{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 1px;
+    margin-right: 16px;
+    font-size: 2vmax;
+  }  
+  .butSubmit {
+    background-color: #75d19c;
+    box-shadow: 0 4px 8px 0 #f21f1f;
+    border: none;
+    width: 30%;
+    height: 20%;
+    margin: 7px;
+  }
+  .NAME {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: antiquewhite;
+  }  .NAME h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start:0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+}
